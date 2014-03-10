@@ -1,6 +1,10 @@
 XML_JDOM
 ========
 
+XML-regex is a Java program that reads XML files containing Shakespeare plays, replaces all occurrences of the word "virtue" with replacement text, and writes the new files to a target directory. The program is not case-sensitive when looking for the “virtue” string.
+
+To run the program:
+
 1.	Create a new Maven project in Eclipse, checking ‘Create a simple project’.
 2.	Add a Group ID and Artifact ID on the next screen, and click ‘Finish’.
 3.	In your Java project, create the following Java package in ‘/src/main/java’: com.emodeen.javatools.xml.
